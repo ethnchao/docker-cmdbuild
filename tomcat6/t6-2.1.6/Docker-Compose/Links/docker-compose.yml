@@ -1,0 +1,14 @@
+tomcat:
+  image: quentinv/cmdbuild:t6-2.1.6
+  ports:
+   - 8080:8080
+  restart: always 
+  links:
+   - pgsql:database
+   
+
+pgsql:
+  image: postgres:9.3
+  restart: always
+  environment:
+   - POSTGRES_PASSWORD=YOUR_POSTGRES_PASSWORD
