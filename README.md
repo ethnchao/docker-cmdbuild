@@ -31,11 +31,11 @@ Here is 6 docker containers with some versions of cmdbuild !
 * [Version 2.0.0](http://91.121.64.81:8082)
 * [Version 2.1.0](http://91.121.64.81:8083)
 * [Version 2.2.0](http://91.121.64.81:8084)
-* [Version 2.3.0](http://91.121.64.81:8085/)
+* [Version 2.3.0](http://91.121.64.81:8085)
 * [Version 2.3.4 (latest)](http://91.121.64.81:8086/)
 
-* **user** : demo
-* **password** : demo
+**user** : demo
+**password** : demo
 
 ### Supported tags and respective Dockerfile links
 
