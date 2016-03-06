@@ -95,3 +95,18 @@ You can use the following : --link option **(deprecated)** or the network featur
 * [```t7-1.4.0.2```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-1.4.0.2/Docker-Compose/Network/docker-compose.yml) | [```t7-1.5.0```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-1.5.0/Docker-Compose/Network/docker-compose.yml) | [```t7-2.0.0```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.0.0/Docker-Compose/Network/docker-compose.yml) | [```t7-2.0.3```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.0.3/Docker-Compose/Network/docker-compose.yml) | [```t7-2.1.0```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.1.0/Docker-Compose/Network/docker-compose.yml) | [```t7-2.1.1```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.1.1/Docker-Compose/Network/docker-compose.yml) | [```t7-2.1.2```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.1.2/Docker-Compose/Network/docker-compose.yml) | [```t7-2.1.3```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.1.3/Docker-Compose/Network/docker-compose.yml)| [```t7-2.1.4```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.1.4/Docker-Compose/Network/docker-compose.yml) | [```t7-2.1.5```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.1.5/Docker-Compose/Network/docker-compose.yml) | [```t7-2.1.6```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.1.6/Docker-Compose/Network/docker-compose.yml) | [```t7-2.1.7```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.1.7/Docker-Compose/Network/docker-compose.yml) | [```t7-2.1.8```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.1.8/Docker-Compose/Network/docker-compose.yml) | [```t7-2.2.0```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.2.0/Docker-Compose/Network/docker-compose.yml) | [```t7-2.2.1```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.2.1/Docker-Compose/Network/docker-compose.yml) | [```t7-2.2.2```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.2.2/Docker-Compose/Network/docker-compose.yml) | [```t7-2.3.0```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.3.0/Docker-Compose/Network/docker-compose.yml) | [```t7-2.3.1```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.3.1/Docker-Compose/Network/docker-compose.yml) | [```t7-2.3.2```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.3.2/Docker-Compose/Network/docker-compose.yml) | [```t7-2.3.3```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.3.3/Docker-Compose/Network/docker-compose.yml) | [```t7-2.3.4(latest)```](https://github.com/Quentinvarquet/docker-cmdbuild/blob/master/tomcat7/t7-2.3.4/Docker-Compose/Network/docker-compose.yml)
 
 
+#### Database configuration
+
+##### Networks
+
+Host: pgsql_container_name
+Port: 5432
+Username: postgres
+Password: your_postgres_password
+
+##### Links
+
+Host: name_of_the_link (**datebase** in my docker-compose files)
+Port: 5432
+Username: postgres
+Password: your_postgres_password
