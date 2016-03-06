@@ -99,14 +99,14 @@ You can use the following : --link option **(deprecated)** or the network featur
 
 ##### Networks
 
-Host: pgsql_container_name
-Port: 5432
-Username: postgres
-Password: your_postgres_password
+**Host:** pgsql_container_name
+**Port:** 5432
+**Username:** postgres
+**Password:** your_postgres_password
 
 ##### Links
 
-Host: name_of_the_link (**datebase** in my docker-compose files)
-Port: 5432
-Username: postgres
-Password: your_postgres_password
+**Host:** name_of_the_link (**database** in my docker-compose files)
+**Port:** 5432
+**Username:** postgres
+**Password:** your_postgres_password
