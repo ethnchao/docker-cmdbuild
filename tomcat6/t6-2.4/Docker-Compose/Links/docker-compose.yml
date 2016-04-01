@@ -1,5 +1,5 @@
 tomcat:
-  image: quentinv/cmdbuild:t7-2.3.4
+  image: quentinv/cmdbuild
   ports:
    - 8080:8080
   restart: always 
