@@ -28,6 +28,7 @@ ENV TOMCAT_VERSION 6.0.45
 ENV CMDBUILD_VERSION 2.4.0 
 ENV TOMCAT_TGZ_URL https://www.apache.org/dist/tomcat/tomcat-$TOMCAT_MAJOR/v$TOMCAT_VERSION/bin/apache-tomcat-$TOMCAT_VERSION.tar.gz
 ENV CMDBUILD_URL http://downloads.sourceforge.net/project/cmdbuild/$CMDBUILD_VERSION/cmdbuild-$CMDBUILD_VERSION.zip
+ENV LIB http://jdbc.postgresql.org/download/postgresql-9.4.1208.jar
 
 # Temporary, will be updated for the next version
 
@@ -55,6 +56,7 @@ RUN set -x \
 	&& mv cmdbuild.war /usr/local/tomcat/webapps/ROOT.war \
 	&& mv * /usr/local//tomcat/webapps/ROOT/ \
 	&& cd /opt/cmdbuild/extras/tomcat-libs/6.0 \
+	&& wget "$LIB" \
 	&& mv *.jar /usr/local/tomcat/lib \
 	&& cd /opt \
 	&& rm -rf *
