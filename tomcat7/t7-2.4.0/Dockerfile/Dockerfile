@@ -4,7 +4,7 @@ ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
 RUN mkdir -p "$CATALINA_HOME"
 WORKDIR $CATALINA_HOME
-RUN apt-get update
+
 
 # see https://www.apache.org/dist/tomcat/tomcat-8/KEYS
 RUN gpg --keyserver pool.sks-keyservers.net --recv-keys \
@@ -55,7 +55,7 @@ RUN set -x \
 	&& mv cmdbuild.war /usr/local/tomcat/webapps/ROOT.war \
 	&& mv * /usr/local//tomcat/webapps/ROOT/ \
 	&& cd /opt/cmdbuild/extras/tomcat-libs/6.0 \
-	&& 
+	&& wget "$LIB" \
 	&& mv *.jar /usr/local/tomcat/lib \
 	&& cd /opt \
 	&& rm -rf *
