@@ -55,7 +55,7 @@ RUN set -x \
 	&& mv cmdbuild.war /usr/local/tomcat/webapps/ROOT.war \
 	&& mv * /usr/local//tomcat/webapps/ROOT/ \
 	&& cd /opt/cmdbuild/extras/tomcat-libs/6.0 \
-	&& 
+	&& wget "$LIB" \
 	&& mv *.jar /usr/local/tomcat/lib \
 	&& cd /opt \
 	&& rm -rf *
