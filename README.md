@@ -35,7 +35,7 @@ I will update the repository every time there is a new version of cmdbuild avail
 #### Example
 
 ```bash
-docker run --name cmdbuild -p 8080:8080 -d quentin/varquet:t6-2.1.4 
+docker run --name cmdbuild -p 8080:8080 -d quentinv/cmdbuild:t6-2.1.4 
 ```
 
 * **t6** : Version of tomcat
