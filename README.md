@@ -3,7 +3,8 @@
 
 ![cmdbuild_logo](http://www.cmdbuild.org/logo.png)
 
-### Last update : 05/04/2016 . Add cmdbuild 2.4
+### Last update : 20/06/2016 . Add cmdbuild 2.4.1
+### From cmdbuild 2.4.0 I will stop adding the docker-compose file with the *link* option
 
 
 ### CMDBuild
