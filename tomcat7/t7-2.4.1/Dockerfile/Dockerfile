@@ -26,7 +26,7 @@ RUN set -ex \
 	done
 
 ENV TOMCAT_MAJOR 7
-ENV TOMCAT_VERSION 7.0.68
+ENV TOMCAT_VERSION 7.0.70
 ENV CMDBUILD_VERSION 2.4.1 
 ENV TOMCAT_TGZ_URL https://www.apache.org/dist/tomcat/tomcat-$TOMCAT_MAJOR/v$TOMCAT_VERSION/bin/apache-tomcat-$TOMCAT_VERSION.tar.gz
 ENV CMDBUILD_URL http://downloads.sourceforge.net/project/cmdbuild/$CMDBUILD_VERSION/cmdbuild-$CMDBUILD_VERSION.zip
@@ -57,7 +57,7 @@ RUN set -x \
 	&& unzip cmdbuild.war \
 	&& mv cmdbuild.war /usr/local/tomcat/webapps/ROOT.war \
 	&& mv * /usr/local//tomcat/webapps/ROOT/ \
-	&& cd /opt/cmdbuild/extras/tomcat-libs/6.0 \
+	&& cd "/opt/cmdbuild/extras/tomcat-libs/6.0 or higher" \
 	&& wget "$LIB" \
 	&& mv *.jar /usr/local/tomcat/lib \
 	&& cd /opt \
