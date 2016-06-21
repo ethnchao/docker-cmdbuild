@@ -3,7 +3,7 @@
 
 ![cmdbuild_logo](http://www.cmdbuild.org/logo.png)
 
-### Last update : 05/04/2016 . Add cmdbuild 2.4
+### Last update : 05/04/2016 . Add cmdbuild 2.4.0
 
 
 ### CMDBuild
