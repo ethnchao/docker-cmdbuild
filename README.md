@@ -4,7 +4,7 @@
 ![cmdbuild_logo](http://www.cmdbuild.org/logo.png)
 
 ### Last update : 20/06/2016 . Add cmdbuild 2.4.1
-### From cmdbuild 2.4.0 I will stop adding the docker-compose file with the *link* option
+#### From cmdbuild 2.4.0 I will stop adding the docker-compose file with the link option
 
 
 ### CMDBuild
@@ -41,6 +41,13 @@ docker run --name cmdbuild -p 8080:8080 -d quentinv/cmdbuild:t6-2.1.4
 
 * **t6** : Version of tomcat
 * **2.1.4** : Version of cmdbuild
+
+
+You can the last version ?
+
+```bash
+docker run --name cmdbuild -p 8080:8080 -d quentinv/cmdbuild:latest
+```
 
 #### Tags
 
