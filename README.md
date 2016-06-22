@@ -44,7 +44,7 @@ docker run --name cmdbuild -p 8080:8080 -d quentinv/cmdbuild:t6-2.1.4
 * **2.1.4** : Version of cmdbuild
 
 
-You can the last version ?
+You want the last version ?
 
 ```bash
 docker run --name cmdbuild -p 8080:8080 -d quentinv/cmdbuild:latest
